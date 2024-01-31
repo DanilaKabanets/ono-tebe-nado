@@ -142,7 +142,7 @@
 }
 
 .lots {
-    padding: 180px 50px;
+    padding: 179px 50px 183px 50px;
 }
 
 .lots__heading {
@@ -163,6 +163,7 @@
 
 .lots__card-list-item {
     flex: 1 0 0%;
+    min-height: 450px;
 }
 
 .lots__look-more-link {
@@ -264,7 +265,7 @@
     display: grid;
     align-items: start;
     grid-template-columns: repeat(3, 1fr);
-    padding: 90px 50px;
+    padding: 0 50px 50px 88px;
 }
 .footer__menu-list {
     text-align: center;
