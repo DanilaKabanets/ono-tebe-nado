@@ -104,7 +104,7 @@
 }
 
 .cover__description-text {
-    margin: 0 auto 79px 0;
+    margin-right: 79px;
     font-size: 22px;
     font-weight: 400;
     line-height: 28px;
@@ -122,7 +122,6 @@
 
 .bet-button {
     padding: 12px 32px;
-    margin-left: auto;
     font-size: 22px;
     font-weight: 500;
     text-transform: uppercase;
@@ -207,6 +206,7 @@
 .card__title {
     font-size: 22px;
     font-weight: 700;
+    line-height: 120%;
     text-transform: uppercase;
     text-decoration: underline;
 }
