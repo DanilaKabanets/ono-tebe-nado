@@ -265,7 +265,7 @@
     display: grid;
     align-items: start;
     grid-template-columns: repeat(3, 1fr);
-    padding: 0 50px 50px 50px;
+    padding: 0 50px 88px 50px;
 }
 .footer__menu-list {
     text-align: center;
