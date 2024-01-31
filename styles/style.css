@@ -155,14 +155,13 @@
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+    width: 100%;
     gap: 25px;
     margin-bottom: 30px;
 }
 
 .lots__card-list-item {
     flex: 1 0 0%;
-    min-height: 563px;
-    min-width: 334px;
 }
 
 .lots__look-more-link {
@@ -293,7 +292,7 @@
     transition: transform .1s ease;
 }
 
-.footer__social-link:active .footer__social-icon{
+.footer__social-link:active .footer__social-icon {
     transform: scale(0.9);
 }
 
