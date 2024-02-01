@@ -3,7 +3,6 @@
     align-items: center;
     grid-template-columns: repeat(3, 1fr);
     padding: 92px 87px 97px 51px;
-    /* padding: 92px 51px 96px; */
 }
 
 .header__links-list {
@@ -160,7 +159,7 @@
     padding: 12px 32px;
     font-size: 22px;
     font-weight: 500;
-    font-family: Raleway;
+    font-family: "Raleway", "Arial", sans-serif;
     text-transform: uppercase;
     text-align: center;
     background: none;
@@ -224,27 +223,21 @@
     width: 100%;
     min-height: 563px;
     padding: 48px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .card_type_film {
     background: url(../images/card-lot-01.jpg) center/cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .card_type_book {
     background: url(../images/card-lot-02.jpg) center/cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .card_type_picture {
     background: url(../images/card-lot-03.jpg) center/cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .card-link {
